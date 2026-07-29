@@ -1,0 +1,22 @@
+/* 灵工云设计令牌：以 Ant Design 的信息层级和语义状态为基础。 */
+:root {
+  --lg-primary: #1677ff;
+  --lg-primary-hover: #4096ff;
+  --lg-success: #52c41a;
+  --lg-warning: #faad14;
+  --lg-error: #ff4d4f;
+  --lg-info: #1677ff;
+  --lg-text: #1f2937;
+  --lg-text-secondary: #657b8d;
+  --lg-border: #dfe7ee;
+  --lg-bg-layout: #f7fafc;
+  --lg-bg-container: #ffffff;
+  --lg-radius-sm: 6px;
+  --lg-radius: 8px;
+  --lg-radius-lg: 12px;
+  --lg-space-xs: 4px;
+  --lg-space-sm: 8px;
+  --lg-space: 16px;
+  --lg-space-lg: 24px;
+  --lg-font-size: 14px;
+}
