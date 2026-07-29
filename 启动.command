@@ -1,3 +1,3 @@
 #!/bin/zsh
 cd "$(dirname "$0")"
-open "index.html"
+exec "./scripts/启动.command"
