@@ -1,7 +1,7 @@
 window.Linggong.adminMenu = [
   { label: "工作台", view: "dashboard" },
-  { label: "企业管理", view: "companies", children: [["新签审核", "review"], ["运营管理", "companyOps"], ["新增企业", "createCompany"]] },
-  { label: "零客管理", view: "people", children: [["零客招募", "workerRecruit"], ["运营管理", "workerOps"]] },
+  { label: "企业管理", children: [["新签审核", "review"], ["运营管理", "companyOps"], ["新增企业", "createCompany"]] },
+  { label: "零客管理", children: [["零客招募", "workerRecruit"], ["运营管理", "workerOps"]] },
   { label: "项目管理", children: [["项目审核", "projectReview"], ["进度管理", "projectProgress"]] },
   { label: "任务管理", children: [["任务审核", "taskReview"], ["执行管理", "taskExecution"]] },
   { label: "结算管理", view: "settlement" },
