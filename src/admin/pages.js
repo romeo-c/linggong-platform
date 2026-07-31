@@ -43,6 +43,7 @@ window.Linggong.admin = {
     if (view === "taskReview") return taskReview();
     if (view === "taskExecution") return taskExecution();
     if (view === "settlement") return settlementManagement();
+    if (view === "invoiceApply") return invoiceApply();
     if (view === "review") return companyReview();
     if (lists[view]) { const [title, desc, rows, kind] = lists[view]; return u.list(title, desc, rows, kind, "批量处理", view); }
     return u.detail("运营处理详情", "待审核", `<button class="primary" onclick="Linggong.notice('处理完成，已同步下一环节');Linggong.go('dashboard')">确认处理</button>`);
